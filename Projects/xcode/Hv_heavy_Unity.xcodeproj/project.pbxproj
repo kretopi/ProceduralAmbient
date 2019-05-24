@@ -1,0 +1,977 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07A19113950953EAC61B08A1 /* HvSignalCPole.c in Sources */ = {isa = PBXBuildFile; fileRef = F8276109B4B7058F6A57755D /* HvSignalCPole.c */; };
+		1A14D759C5B1D1AC8F8129CD /* HvControlRandom.c in Sources */ = {isa = PBXBuildFile; fileRef = FE0CDE141A0086C0DCE77CC2 /* HvControlRandom.c */; };
+		24F229193A03DB2B4E885766 /* HeavyContext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C2DE4D8563F16DBE030529A9 /* HeavyContext.cpp */; };
+		4003D81DCFA9CFAEABC4924F /* HvControlVar.c in Sources */ = {isa = PBXBuildFile; fileRef = 56737F77C1D31D9834298CFD /* HvControlVar.c */; };
+		52B75B1393CD6DE1FD4F5F0E /* HvMessage.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A8714BD23361ACEE6EE4DF6 /* HvMessage.c */; };
+		5F8FC5BD229877C60065CF96 /* HvUtils.c in Sources */ = {isa = PBXBuildFile; fileRef = 64AFFCE0BD07CDFB3EB5CF06 /* HvUtils.c */; };
+		5F8FC5BE229877C60065CF96 /* HvControlUnop.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F64D733D40AF05E19D2FF0F /* HvControlUnop.c */; };
+		5F8FC5BF229877C60065CF96 /* HvControlCast.c in Sources */ = {isa = PBXBuildFile; fileRef = CE8C319C6B070F22AF896D3D /* HvControlCast.c */; };
+		5F8FC5C0229877C60065CF96 /* HvControlBinop.c in Sources */ = {isa = PBXBuildFile; fileRef = 9E4958191AF8A9364B0A8BDD /* HvControlBinop.c */; };
+		5F8FC5C1229877C60065CF96 /* HvControlRandom.c in Sources */ = {isa = PBXBuildFile; fileRef = FE0CDE141A0086C0DCE77CC2 /* HvControlRandom.c */; };
+		5F8FC5C2229877C60065CF96 /* HvControlSystem.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B32EDEF188DEC66F0C521D6 /* HvControlSystem.c */; };
+		5F8FC5C3229877C60065CF96 /* HvControlDelay.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBE43C111A94FD2BF4A64B6 /* HvControlDelay.c */; };
+		5F8FC5C4229877C60065CF96 /* HvSignalLine.c in Sources */ = {isa = PBXBuildFile; fileRef = 8063BC771379620AD9BDCA45 /* HvSignalLine.c */; };
+		5F8FC5C5229877C60065CF96 /* HvSignalCPole.c in Sources */ = {isa = PBXBuildFile; fileRef = F8276109B4B7058F6A57755D /* HvSignalCPole.c */; };
+		5F8FC5C6229877C60065CF96 /* HvControlVar.c in Sources */ = {isa = PBXBuildFile; fileRef = 56737F77C1D31D9834298CFD /* HvControlVar.c */; };
+		5F8FC5C7229877C60065CF96 /* HvHeavy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 454F7F6845208EC973180730 /* HvHeavy.cpp */; };
+		5F8FC5C8229877C60065CF96 /* HvLightPipe.c in Sources */ = {isa = PBXBuildFile; fileRef = 5CE58FA2A811A9BF79964921 /* HvLightPipe.c */; };
+		5F8FC5C9229877C60065CF96 /* Heavy_Ambient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96842D3E90E1A70B432C46F4 /* Heavy_Ambient.cpp */; };
+		5F8FC5CA229877C60065CF96 /* HvSignalRPole.c in Sources */ = {isa = PBXBuildFile; fileRef = 04A1EAEEAAF93579F0A519F1 /* HvSignalRPole.c */; };
+		5F8FC5CB229877C60065CF96 /* HvSignalVar.c in Sources */ = {isa = PBXBuildFile; fileRef = 0EB97D280EAED44B8F57DFF1 /* HvSignalVar.c */; };
+		5F8FC5CC229877C60065CF96 /* Heavy_heavy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F51D480E867767457E4EF8C /* Heavy_heavy.cpp */; };
+		5F8FC5CD229877C60065CF96 /* HvMessage.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A8714BD23361ACEE6EE4DF6 /* HvMessage.c */; };
+		5F8FC5CE229877C60065CF96 /* HvControlPack.c in Sources */ = {isa = PBXBuildFile; fileRef = CA752B34A87AAD5D35071C87 /* HvControlPack.c */; };
+		5F8FC5CF229877C60065CF96 /* HvControlSlice.c in Sources */ = {isa = PBXBuildFile; fileRef = 9ECDB82E48CDD05997E1B004 /* HvControlSlice.c */; };
+		5F8FC5D0229877C60065CF96 /* HvTable.c in Sources */ = {isa = PBXBuildFile; fileRef = 02C1E89B88741268A29EE503 /* HvTable.c */; };
+		5F8FC5D1229877C60065CF96 /* HvSignalDel1.c in Sources */ = {isa = PBXBuildFile; fileRef = 6F321A3035D48261DF283DBD /* HvSignalDel1.c */; };
+		5F8FC5D2229877C60065CF96 /* HvControlIf.c in Sources */ = {isa = PBXBuildFile; fileRef = 23EABC56A4A5EFC8525EAFE1 /* HvControlIf.c */; };
+		5F8FC5D3229877C60065CF96 /* HvMessageQueue.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C05428563C8ED0D3C748B5F /* HvMessageQueue.c */; };
+		5F8FC5D4229877C60065CF96 /* HeavyContext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C2DE4D8563F16DBE030529A9 /* HeavyContext.cpp */; };
+		5F8FC5D5229877C60065CF96 /* HvMessagePool.c in Sources */ = {isa = PBXBuildFile; fileRef = 574479009B5B2ACBE6E2E90F /* HvMessagePool.c */; };
+		5F8FC5D6229877C60065CF96 /* HvUtils.c in Sources */ = {isa = PBXBuildFile; fileRef = 64AFFCE0BD07CDFB3EB5CF06 /* HvUtils.c */; };
+		5F8FC5D7229877C60065CF96 /* HvControlUnop.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F64D733D40AF05E19D2FF0F /* HvControlUnop.c */; };
+		5F8FC5D8229877C60065CF96 /* HvControlCast.c in Sources */ = {isa = PBXBuildFile; fileRef = CE8C319C6B070F22AF896D3D /* HvControlCast.c */; };
+		5F8FC5D9229877C60065CF96 /* HvControlBinop.c in Sources */ = {isa = PBXBuildFile; fileRef = 9E4958191AF8A9364B0A8BDD /* HvControlBinop.c */; };
+		5F8FC5DA229877C60065CF96 /* HvControlRandom.c in Sources */ = {isa = PBXBuildFile; fileRef = FE0CDE141A0086C0DCE77CC2 /* HvControlRandom.c */; };
+		5F8FC5DB229877C60065CF96 /* HvControlSystem.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B32EDEF188DEC66F0C521D6 /* HvControlSystem.c */; };
+		5F8FC5DC229877C60065CF96 /* HvControlDelay.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBE43C111A94FD2BF4A64B6 /* HvControlDelay.c */; };
+		5F8FC5DD229877C60065CF96 /* HvSignalLine.c in Sources */ = {isa = PBXBuildFile; fileRef = 8063BC771379620AD9BDCA45 /* HvSignalLine.c */; };
+		5F8FC5DE229877C60065CF96 /* HvSignalCPole.c in Sources */ = {isa = PBXBuildFile; fileRef = F8276109B4B7058F6A57755D /* HvSignalCPole.c */; };
+		5F8FC5DF229877C60065CF96 /* HvControlVar.c in Sources */ = {isa = PBXBuildFile; fileRef = 56737F77C1D31D9834298CFD /* HvControlVar.c */; };
+		5F8FC5E0229877C60065CF96 /* HvHeavy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 454F7F6845208EC973180730 /* HvHeavy.cpp */; };
+		5F8FC5E1229877C60065CF96 /* HvLightPipe.c in Sources */ = {isa = PBXBuildFile; fileRef = 5CE58FA2A811A9BF79964921 /* HvLightPipe.c */; };
+		5F8FC5E2229877C60065CF96 /* Heavy_Ambient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96842D3E90E1A70B432C46F4 /* Heavy_Ambient.cpp */; };
+		5F8FC5E3229877C60065CF96 /* HvSignalRPole.c in Sources */ = {isa = PBXBuildFile; fileRef = 04A1EAEEAAF93579F0A519F1 /* HvSignalRPole.c */; };
+		5F8FC5E4229877C60065CF96 /* HvSignalVar.c in Sources */ = {isa = PBXBuildFile; fileRef = 0EB97D280EAED44B8F57DFF1 /* HvSignalVar.c */; };
+		5F8FC5E5229877C60065CF96 /* Heavy_heavy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F51D480E867767457E4EF8C /* Heavy_heavy.cpp */; };
+		5F8FC5E6229877C60065CF96 /* HvMessage.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A8714BD23361ACEE6EE4DF6 /* HvMessage.c */; };
+		5F8FC5E7229877C60065CF96 /* HvControlPack.c in Sources */ = {isa = PBXBuildFile; fileRef = CA752B34A87AAD5D35071C87 /* HvControlPack.c */; };
+		5F8FC5E8229877C60065CF96 /* HvControlSlice.c in Sources */ = {isa = PBXBuildFile; fileRef = 9ECDB82E48CDD05997E1B004 /* HvControlSlice.c */; };
+		5F8FC5E9229877C60065CF96 /* HvTable.c in Sources */ = {isa = PBXBuildFile; fileRef = 02C1E89B88741268A29EE503 /* HvTable.c */; };
+		5F8FC5EA229877C60065CF96 /* HvSignalDel1.c in Sources */ = {isa = PBXBuildFile; fileRef = 6F321A3035D48261DF283DBD /* HvSignalDel1.c */; };
+		5F8FC5EB229877C60065CF96 /* HvControlIf.c in Sources */ = {isa = PBXBuildFile; fileRef = 23EABC56A4A5EFC8525EAFE1 /* HvControlIf.c */; };
+		5F8FC5EC229877C60065CF96 /* HvMessageQueue.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C05428563C8ED0D3C748B5F /* HvMessageQueue.c */; };
+		5F8FC5ED229877C60065CF96 /* HeavyContext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C2DE4D8563F16DBE030529A9 /* HeavyContext.cpp */; };
+		5F8FC5EE229877C60065CF96 /* HvMessagePool.c in Sources */ = {isa = PBXBuildFile; fileRef = 574479009B5B2ACBE6E2E90F /* HvMessagePool.c */; };
+		5F8FC5EF229877C60065CF96 /* Hv_heavy_AudioLib.cs in CopyFiles */ = {isa = PBXBuildFile; fileRef = D854D7B91E23D4840025E5F1 /* Hv_heavy_AudioLib.cs */; };
+		7314E3463FFC6F915AB98767 /* HvControlIf.c in Sources */ = {isa = PBXBuildFile; fileRef = 23EABC56A4A5EFC8525EAFE1 /* HvControlIf.c */; };
+		76930517BE8FF04810682B10 /* HvControlDelay.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBE43C111A94FD2BF4A64B6 /* HvControlDelay.c */; };
+		7764B9BACD53B060CE745576 /* HvTable.c in Sources */ = {isa = PBXBuildFile; fileRef = 02C1E89B88741268A29EE503 /* HvTable.c */; };
+		7871CE173FE09349B703ACC9 /* HvControlCast.c in Sources */ = {isa = PBXBuildFile; fileRef = CE8C319C6B070F22AF896D3D /* HvControlCast.c */; };
+		8ECE86CAD107E301AA67CCF8 /* HvMessagePool.c in Sources */ = {isa = PBXBuildFile; fileRef = 574479009B5B2ACBE6E2E90F /* HvMessagePool.c */; };
+		9C00605BEAC64AB259BF7601 /* HvControlSystem.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B32EDEF188DEC66F0C521D6 /* HvControlSystem.c */; };
+		A10531700F5D24DC88D0720E /* HvUtils.c in Sources */ = {isa = PBXBuildFile; fileRef = 64AFFCE0BD07CDFB3EB5CF06 /* HvUtils.c */; };
+		A468DB7832130C4B9FD58185 /* HvControlSlice.c in Sources */ = {isa = PBXBuildFile; fileRef = 9ECDB82E48CDD05997E1B004 /* HvControlSlice.c */; };
+		BE14D238724569589B22F69F /* HvControlUnop.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F64D733D40AF05E19D2FF0F /* HvControlUnop.c */; };
+		C06AC917F3C93D35AD3286CE /* HvSignalLine.c in Sources */ = {isa = PBXBuildFile; fileRef = 8063BC771379620AD9BDCA45 /* HvSignalLine.c */; };
+		C83E84C88F5211A89A205E60 /* HvSignalDel1.c in Sources */ = {isa = PBXBuildFile; fileRef = 6F321A3035D48261DF283DBD /* HvSignalDel1.c */; };
+		CE9FFA524C763F79CC694150 /* HvMessageQueue.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C05428563C8ED0D3C748B5F /* HvMessageQueue.c */; };
+		CFCE1511229BD00AD89667B8 /* HvControlPack.c in Sources */ = {isa = PBXBuildFile; fileRef = CA752B34A87AAD5D35071C87 /* HvControlPack.c */; };
+		D39C4FCDBA5685538D4FCDDE /* HvLightPipe.c in Sources */ = {isa = PBXBuildFile; fileRef = 5CE58FA2A811A9BF79964921 /* HvLightPipe.c */; };
+		D854D7E11E23D4840025E5F1 /* AudioPluginUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D854D7B71E23D4840025E5F1 /* AudioPluginUtil.cpp */; };
+		D854D7E51E23D4840025E5F1 /* Hv_heavy_AudioPlugin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D854D7BA1E23D4840025E5F1 /* Hv_heavy_AudioPlugin.cpp */; };
+		D89EAC621E23F853008B3443 /* Hv_heavy_AudioLib.cs in CopyFiles */ = {isa = PBXBuildFile; fileRef = D854D7B91E23D4840025E5F1 /* Hv_heavy_AudioLib.cs */; };
+		D93E61C60382DE636916E741 /* HvControlBinop.c in Sources */ = {isa = PBXBuildFile; fileRef = 9E4958191AF8A9364B0A8BDD /* HvControlBinop.c */; };
+		DB47B3E8DB01B3EDA214CACA /* Heavy_heavy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F51D480E867767457E4EF8C /* Heavy_heavy.cpp */; };
+		DC3BFF73C7F6A3835D60A209 /* HvSignalRPole.c in Sources */ = {isa = PBXBuildFile; fileRef = 04A1EAEEAAF93579F0A519F1 /* HvSignalRPole.c */; };
+		E272CCC8BB4D1CAFDD035CA6 /* HvSignalVar.c in Sources */ = {isa = PBXBuildFile; fileRef = 0EB97D280EAED44B8F57DFF1 /* HvSignalVar.c */; };
+		EF01F3569F61FAE4AC0DA58D /* Heavy_Ambient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96842D3E90E1A70B432C46F4 /* Heavy_Ambient.cpp */; };
+		F57B380CD7FFB60906DD3362 /* HvHeavy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 454F7F6845208EC973180730 /* HvHeavy.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D88C9CE8207F6E6C006338E3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				5F8FC5EF229877C60065CF96 /* Hv_heavy_AudioLib.cs in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D89EAC611E23F847008B3443 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				D89EAC621E23F853008B3443 /* Hv_heavy_AudioLib.cs in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		02C1E89B88741268A29EE503 /* HvTable.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HvTable.c; sourceTree = "<group>"; };
+		04A1EAEEAAF93579F0A519F1 /* HvSignalRPole.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HvSignalRPole.c; sourceTree = "<group>"; };
+		0E51038C91C7F8C29605C495 /* HvHeavy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HvHeavy.h; sourceTree = "<group>"; };
+		0EB97D280EAED44B8F57DFF1 /* HvSignalVar.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HvSignalVar.c; sourceTree = "<group>"; };
+		0F451E6A957A3ECB3F8AC0B8 /* HvUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HvUtils.h; sourceTree = "<group>"; };
+		20482F63C41D393D44FEED5C /* Heavy_Ambient.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Heavy_Ambient.hpp; sourceTree = "<group>"; };
+		23E6A392ADBFF734344F7AF4 /* HvMessagePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HvMessagePool.h; sourceTree = "<group>"; };
+		23EABC56A4A5EFC8525EAFE1 /* HvControlIf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HvControlIf.c; sourceTree = "<group>"; };
+		2F46D6B6040C8190E879860D /* HeavyContext.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HeavyContext.hpp; sourceTree = "<group>"; };
+		34E9434488D375100622B8DA /* HvSignalRPole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HvSignalRPole.h; sourceTree = "<group>"; };
+		3B8F016157E2CF82D7EF7F46 /* HvMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HvMessage.h; sourceTree = "<group>"; };
+		3F51D480E867767457E4EF8C /* Heavy_heavy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Heavy_heavy.cpp; sourceTree = "<group>"; };
+		3F64D733D40AF05E19D2FF0F /* HvControlUnop.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HvControlUnop.c; sourceTree = "<group>"; };
+		454F7F6845208EC973180730 /* HvHeavy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HvHeavy.cpp; sourceTree = "<group>"; };
+		46069C17EFFDDA5A07BEB49B /* HvSignalVar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HvSignalVar.h; sourceTree = "<group>"; };
+		4744E49538923648F29991A9 /* Heavy_heavy.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Heavy_heavy.hpp; sourceTree = "<group>"; };
+		48C5E368FBAF2E54D2BDDA6D /* HvLightPipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HvLightPipe.h; sourceTree = "<group>"; };
+		4A8714BD23361ACEE6EE4DF6 /* HvMessage.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HvMessage.c; sourceTree = "<group>"; };
+		53B042FA05782FFAEC50D58B /* HvMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HvMath.h; sourceTree = "<group>"; };
+		56737F77C1D31D9834298CFD /* HvControlVar.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HvControlVar.c; sourceTree = "<group>"; };
+		574479009B5B2ACBE6E2E90F /* HvMessagePool.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HvMessagePool.c; sourceTree = "<group>"; };
+		5CE58FA2A811A9BF79964921 /* HvLightPipe.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HvLightPipe.c; sourceTree = "<group>"; };
+		64AFFCE0BD07CDFB3EB5CF06 /* HvUtils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HvUtils.c; sourceTree = "<group>"; };
+		67577C344160AFF1A98BE611 /* HvTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HvTable.h; sourceTree = "<group>"; };
+		6CEE4F683D0F05EBB1A20190 /* HvSignalCPole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HvSignalCPole.h; sourceTree = "<group>"; };
+		6D9F11479DC81FD5A48D9271 /* HvControlCast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HvControlCast.h; sourceTree = "<group>"; };
+		6F321A3035D48261DF283DBD /* HvSignalDel1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HvSignalDel1.c; sourceTree = "<group>"; };
+		7963EBCFC2E67A7AE088404D /* HvHeavyInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HvHeavyInternal.h; sourceTree = "<group>"; };
+		7CEE016E2E54AD96E1A4AFE3 /* HvControlBinop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HvControlBinop.h; sourceTree = "<group>"; };
+		802C489A5AB78BEDCAFB2E19 /* Heavy_heavy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Heavy_heavy.h; sourceTree = "<group>"; };
+		8063BC771379620AD9BDCA45 /* HvSignalLine.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HvSignalLine.c; sourceTree = "<group>"; };
+		88C66CF4638902203AB85F8A /* HvControlIf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HvControlIf.h; sourceTree = "<group>"; };
+		8924236237C7C33335A510DC /* HvControlRandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HvControlRandom.h; sourceTree = "<group>"; };
+		8B32EDEF188DEC66F0C521D6 /* HvControlSystem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HvControlSystem.c; sourceTree = "<group>"; };
+		8C05428563C8ED0D3C748B5F /* HvMessageQueue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HvMessageQueue.c; sourceTree = "<group>"; };
+		96842D3E90E1A70B432C46F4 /* Heavy_Ambient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Heavy_Ambient.cpp; sourceTree = "<group>"; };
+		9868A1195820CA643BAA0A1B /* HeavyContextInterface.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HeavyContextInterface.hpp; sourceTree = "<group>"; };
+		99C1606A40698F6734119AB3 /* HvMessageQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HvMessageQueue.h; sourceTree = "<group>"; };
+		9E4958191AF8A9364B0A8BDD /* HvControlBinop.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HvControlBinop.c; sourceTree = "<group>"; };
+		9ECDB82E48CDD05997E1B004 /* HvControlSlice.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HvControlSlice.c; sourceTree = "<group>"; };
+		AB57CCCE8AE6EE15F8174895 /* HvControlSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HvControlSystem.h; sourceTree = "<group>"; };
+		B21EE50C97325716927297A9 /* Heavy_Ambient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Heavy_Ambient.h; sourceTree = "<group>"; };
+		C2DE4D8563F16DBE030529A9 /* HeavyContext.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HeavyContext.cpp; sourceTree = "<group>"; };
+		CA752B34A87AAD5D35071C87 /* HvControlPack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HvControlPack.c; sourceTree = "<group>"; };
+		CE8C319C6B070F22AF896D3D /* HvControlCast.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HvControlCast.c; sourceTree = "<group>"; };
+		D03E173EB4903B1B5F682157 /* HvControlPack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HvControlPack.h; sourceTree = "<group>"; };
+		D0AD6EA99334FF48CB7C9AF0 /* HvSignalLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HvSignalLine.h; sourceTree = "<group>"; };
+		D4861C4A16A1566FA36D5689 /* HvSignalDel1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HvSignalDel1.h; sourceTree = "<group>"; };
+		D7C3C4B80CBBF279A145D0B1 /* HvControlVar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HvControlVar.h; sourceTree = "<group>"; };
+		D854D7271E23D37A0025E5F1 /* AudioPlugin_Hv_heavy.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioPlugin_Hv_heavy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		D854D7B61E23D4840025E5F1 /* AudioPluginInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioPluginInterface.h; sourceTree = "<group>"; };
+		D854D7B71E23D4840025E5F1 /* AudioPluginUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AudioPluginUtil.cpp; sourceTree = "<group>"; };
+		D854D7B81E23D4840025E5F1 /* AudioPluginUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioPluginUtil.h; sourceTree = "<group>"; };
+		D854D7B91E23D4840025E5F1 /* Hv_heavy_AudioLib.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Hv_heavy_AudioLib.cs; sourceTree = "<group>"; };
+		D854D7BA1E23D4840025E5F1 /* Hv_heavy_AudioPlugin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Hv_heavy_AudioPlugin.cpp; sourceTree = "<group>"; };
+		D854D7BB1E23D4840025E5F1 /* PluginList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PluginList.h; sourceTree = "<group>"; };
+		D854D7E61E23D4FB0025E5F1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D88C9CEA207F6E6C006338E3 /* libHv_heavy_AudioLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHv_heavy_AudioLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8D3D5061E23D2E00071977E /* Hv_heavy_AudioLib.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hv_heavy_AudioLib.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		E78DF993C8820E0C6CB4517D /* HvControlSlice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HvControlSlice.h; sourceTree = "<group>"; };
+		ED1AF3CDE4215E05419DE020 /* HvControlDelay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HvControlDelay.h; sourceTree = "<group>"; };
+		EEBE43C111A94FD2BF4A64B6 /* HvControlDelay.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HvControlDelay.c; sourceTree = "<group>"; };
+		EF0041F378CCA61B6923287C /* HvControlUnop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HvControlUnop.h; sourceTree = "<group>"; };
+		F8276109B4B7058F6A57755D /* HvSignalCPole.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HvSignalCPole.c; sourceTree = "<group>"; };
+		FE0CDE141A0086C0DCE77CC2 /* HvControlRandom.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HvControlRandom.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D854D7241E23D37A0025E5F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D3D5031E23D2E00071977E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D854D78A1E23D4840025E5F1 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				D854D78B1E23D4840025E5F1 /* heavy */,
+				D854D7B51E23D4840025E5F1 /* unity */,
+			);
+			name = source;
+			path = ../source;
+			sourceTree = "<group>";
+		};
+		D854D78B1E23D4840025E5F1 /* heavy */ = {
+			isa = PBXGroup;
+			children = (
+				64AFFCE0BD07CDFB3EB5CF06 /* HvUtils.c */,
+				46069C17EFFDDA5A07BEB49B /* HvSignalVar.h */,
+				3F64D733D40AF05E19D2FF0F /* HvControlUnop.c */,
+				CE8C319C6B070F22AF896D3D /* HvControlCast.c */,
+				2F46D6B6040C8190E879860D /* HeavyContext.hpp */,
+				9E4958191AF8A9364B0A8BDD /* HvControlBinop.c */,
+				FE0CDE141A0086C0DCE77CC2 /* HvControlRandom.c */,
+				34E9434488D375100622B8DA /* HvSignalRPole.h */,
+				67577C344160AFF1A98BE611 /* HvTable.h */,
+				8B32EDEF188DEC66F0C521D6 /* HvControlSystem.c */,
+				EEBE43C111A94FD2BF4A64B6 /* HvControlDelay.c */,
+				E78DF993C8820E0C6CB4517D /* HvControlSlice.h */,
+				802C489A5AB78BEDCAFB2E19 /* Heavy_heavy.h */,
+				0E51038C91C7F8C29605C495 /* HvHeavy.h */,
+				D03E173EB4903B1B5F682157 /* HvControlPack.h */,
+				3B8F016157E2CF82D7EF7F46 /* HvMessage.h */,
+				8063BC771379620AD9BDCA45 /* HvSignalLine.c */,
+				99C1606A40698F6734119AB3 /* HvMessageQueue.h */,
+				88C66CF4638902203AB85F8A /* HvControlIf.h */,
+				23E6A392ADBFF734344F7AF4 /* HvMessagePool.h */,
+				D4861C4A16A1566FA36D5689 /* HvSignalDel1.h */,
+				F8276109B4B7058F6A57755D /* HvSignalCPole.c */,
+				4744E49538923648F29991A9 /* Heavy_heavy.hpp */,
+				56737F77C1D31D9834298CFD /* HvControlVar.c */,
+				454F7F6845208EC973180730 /* HvHeavy.cpp */,
+				5CE58FA2A811A9BF79964921 /* HvLightPipe.c */,
+				96842D3E90E1A70B432C46F4 /* Heavy_Ambient.cpp */,
+				7CEE016E2E54AD96E1A4AFE3 /* HvControlBinop.h */,
+				04A1EAEEAAF93579F0A519F1 /* HvSignalRPole.c */,
+				8924236237C7C33335A510DC /* HvControlRandom.h */,
+				9868A1195820CA643BAA0A1B /* HeavyContextInterface.hpp */,
+				B21EE50C97325716927297A9 /* Heavy_Ambient.h */,
+				6D9F11479DC81FD5A48D9271 /* HvControlCast.h */,
+				EF0041F378CCA61B6923287C /* HvControlUnop.h */,
+				0EB97D280EAED44B8F57DFF1 /* HvSignalVar.c */,
+				0F451E6A957A3ECB3F8AC0B8 /* HvUtils.h */,
+				3F51D480E867767457E4EF8C /* Heavy_heavy.cpp */,
+				4A8714BD23361ACEE6EE4DF6 /* HvMessage.c */,
+				CA752B34A87AAD5D35071C87 /* HvControlPack.c */,
+				20482F63C41D393D44FEED5C /* Heavy_Ambient.hpp */,
+				ED1AF3CDE4215E05419DE020 /* HvControlDelay.h */,
+				9ECDB82E48CDD05997E1B004 /* HvControlSlice.c */,
+				02C1E89B88741268A29EE503 /* HvTable.c */,
+				AB57CCCE8AE6EE15F8174895 /* HvControlSystem.h */,
+				53B042FA05782FFAEC50D58B /* HvMath.h */,
+				D7C3C4B80CBBF279A145D0B1 /* HvControlVar.h */,
+				6CEE4F683D0F05EBB1A20190 /* HvSignalCPole.h */,
+				6F321A3035D48261DF283DBD /* HvSignalDel1.c */,
+				23EABC56A4A5EFC8525EAFE1 /* HvControlIf.c */,
+				8C05428563C8ED0D3C748B5F /* HvMessageQueue.c */,
+				C2DE4D8563F16DBE030529A9 /* HeavyContext.cpp */,
+				574479009B5B2ACBE6E2E90F /* HvMessagePool.c */,
+				7963EBCFC2E67A7AE088404D /* HvHeavyInternal.h */,
+				D0AD6EA99334FF48CB7C9AF0 /* HvSignalLine.h */,
+				48C5E368FBAF2E54D2BDDA6D /* HvLightPipe.h */,
+			);
+			path = heavy;
+			sourceTree = "<group>";
+		};
+		D854D7B51E23D4840025E5F1 /* unity */ = {
+			isa = PBXGroup;
+			children = (
+				D854D7B61E23D4840025E5F1 /* AudioPluginInterface.h */,
+				D854D7B71E23D4840025E5F1 /* AudioPluginUtil.cpp */,
+				D854D7B81E23D4840025E5F1 /* AudioPluginUtil.h */,
+				D854D7B91E23D4840025E5F1 /* Hv_heavy_AudioLib.cs */,
+				D854D7BA1E23D4840025E5F1 /* Hv_heavy_AudioPlugin.cpp */,
+				D854D7BB1E23D4840025E5F1 /* PluginList.h */,
+			);
+			path = unity;
+			sourceTree = "<group>";
+		};
+		D8D3D4FB1E23D2AB0071977E = {
+			isa = PBXGroup;
+			children = (
+				D854D78A1E23D4840025E5F1 /* source */,
+				D854D7E61E23D4FB0025E5F1 /* Info.plist */,
+				D8D3D5071E23D2E00071977E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8D3D5071E23D2E00071977E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8D3D5061E23D2E00071977E /* Hv_heavy_AudioLib.bundle */,
+				D854D7271E23D37A0025E5F1 /* AudioPlugin_Hv_heavy.bundle */,
+				D88C9CEA207F6E6C006338E3 /* libHv_heavy_AudioLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D854D7261E23D37A0025E5F1 /* AudioPlugin_Hv_heavy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D854D72A1E23D37A0025E5F1 /* Build configuration list for PBXNativeTarget "AudioPlugin_Hv_heavy" */;
+			buildPhases = (
+				D854D7231E23D37A0025E5F1 /* Sources */,
+				D854D7241E23D37A0025E5F1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioPlugin_Hv_heavy;
+			productName = AudioPlugin_Hv_heavy;
+			productReference = D854D7271E23D37A0025E5F1 /* AudioPlugin_Hv_heavy.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		D88C9CE9207F6E6C006338E3 /* Hv_heavy_AudioLib_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D88C9CF2207F6E6C006338E3 /* Build configuration list for PBXNativeTarget "Hv_heavy_AudioLib_iOS" */;
+			buildPhases = (
+				D88C9CE6207F6E6C006338E3 /* Sources */,
+				D88C9CE8207F6E6C006338E3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hv_heavy_AudioLib_iOS;
+			productName = Hv_heavy_AudioLib_iOS;
+			productReference = D88C9CEA207F6E6C006338E3 /* libHv_heavy_AudioLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D8D3D5051E23D2E00071977E /* Hv_heavy_AudioLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8D3D50A1E23D2E00071977E /* Build configuration list for PBXNativeTarget "Hv_heavy_AudioLib" */;
+			buildPhases = (
+				D8D3D5021E23D2E00071977E /* Sources */,
+				D8D3D5031E23D2E00071977E /* Frameworks */,
+				D89EAC611E23F847008B3443 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hv_heavy_AudioLib;
+			productName = Hv_heavy_AudioLib;
+			productReference = D8D3D5061E23D2E00071977E /* Hv_heavy_AudioLib.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8D3D4FC1E23D2AB0071977E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				TargetAttributes = {
+					D854D7261E23D37A0025E5F1 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					D88C9CE9207F6E6C006338E3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					D8D3D5051E23D2E00071977E = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D8D3D4FF1E23D2AB0071977E /* Build configuration list for PBXProject "Hv_heavy_Unity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D8D3D4FB1E23D2AB0071977E;
+			productRefGroup = D8D3D5071E23D2E00071977E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8D3D5051E23D2E00071977E /* Hv_heavy_AudioLib */,
+				D854D7261E23D37A0025E5F1 /* AudioPlugin_Hv_heavy */,
+				D88C9CE9207F6E6C006338E3 /* Hv_heavy_AudioLib_iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D854D7231E23D37A0025E5F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F8FC5BD229877C60065CF96 /* HvUtils.c in Sources */,
+				5F8FC5BE229877C60065CF96 /* HvControlUnop.c in Sources */,
+				5F8FC5BF229877C60065CF96 /* HvControlCast.c in Sources */,
+				5F8FC5C0229877C60065CF96 /* HvControlBinop.c in Sources */,
+				5F8FC5C1229877C60065CF96 /* HvControlRandom.c in Sources */,
+				5F8FC5C2229877C60065CF96 /* HvControlSystem.c in Sources */,
+				5F8FC5C3229877C60065CF96 /* HvControlDelay.c in Sources */,
+				5F8FC5C4229877C60065CF96 /* HvSignalLine.c in Sources */,
+				5F8FC5C5229877C60065CF96 /* HvSignalCPole.c in Sources */,
+				5F8FC5C6229877C60065CF96 /* HvControlVar.c in Sources */,
+				5F8FC5C7229877C60065CF96 /* HvHeavy.cpp in Sources */,
+				5F8FC5C8229877C60065CF96 /* HvLightPipe.c in Sources */,
+				5F8FC5C9229877C60065CF96 /* Heavy_Ambient.cpp in Sources */,
+				5F8FC5CA229877C60065CF96 /* HvSignalRPole.c in Sources */,
+				5F8FC5CB229877C60065CF96 /* HvSignalVar.c in Sources */,
+				5F8FC5CC229877C60065CF96 /* Heavy_heavy.cpp in Sources */,
+				5F8FC5CD229877C60065CF96 /* HvMessage.c in Sources */,
+				5F8FC5CE229877C60065CF96 /* HvControlPack.c in Sources */,
+				5F8FC5CF229877C60065CF96 /* HvControlSlice.c in Sources */,
+				5F8FC5D0229877C60065CF96 /* HvTable.c in Sources */,
+				5F8FC5D1229877C60065CF96 /* HvSignalDel1.c in Sources */,
+				5F8FC5D2229877C60065CF96 /* HvControlIf.c in Sources */,
+				5F8FC5D3229877C60065CF96 /* HvMessageQueue.c in Sources */,
+				5F8FC5D4229877C60065CF96 /* HeavyContext.cpp in Sources */,
+				5F8FC5D5229877C60065CF96 /* HvMessagePool.c in Sources */,
+				D854D7E51E23D4840025E5F1 /* Hv_heavy_AudioPlugin.cpp in Sources */,
+				D854D7E11E23D4840025E5F1 /* AudioPluginUtil.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D88C9CE6207F6E6C006338E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F8FC5D6229877C60065CF96 /* HvUtils.c in Sources */,
+				5F8FC5D7229877C60065CF96 /* HvControlUnop.c in Sources */,
+				5F8FC5D8229877C60065CF96 /* HvControlCast.c in Sources */,
+				5F8FC5D9229877C60065CF96 /* HvControlBinop.c in Sources */,
+				5F8FC5DA229877C60065CF96 /* HvControlRandom.c in Sources */,
+				5F8FC5DB229877C60065CF96 /* HvControlSystem.c in Sources */,
+				5F8FC5DC229877C60065CF96 /* HvControlDelay.c in Sources */,
+				5F8FC5DD229877C60065CF96 /* HvSignalLine.c in Sources */,
+				5F8FC5DE229877C60065CF96 /* HvSignalCPole.c in Sources */,
+				5F8FC5DF229877C60065CF96 /* HvControlVar.c in Sources */,
+				5F8FC5E0229877C60065CF96 /* HvHeavy.cpp in Sources */,
+				5F8FC5E1229877C60065CF96 /* HvLightPipe.c in Sources */,
+				5F8FC5E2229877C60065CF96 /* Heavy_Ambient.cpp in Sources */,
+				5F8FC5E3229877C60065CF96 /* HvSignalRPole.c in Sources */,
+				5F8FC5E4229877C60065CF96 /* HvSignalVar.c in Sources */,
+				5F8FC5E5229877C60065CF96 /* Heavy_heavy.cpp in Sources */,
+				5F8FC5E6229877C60065CF96 /* HvMessage.c in Sources */,
+				5F8FC5E7229877C60065CF96 /* HvControlPack.c in Sources */,
+				5F8FC5E8229877C60065CF96 /* HvControlSlice.c in Sources */,
+				5F8FC5E9229877C60065CF96 /* HvTable.c in Sources */,
+				5F8FC5EA229877C60065CF96 /* HvSignalDel1.c in Sources */,
+				5F8FC5EB229877C60065CF96 /* HvControlIf.c in Sources */,
+				5F8FC5EC229877C60065CF96 /* HvMessageQueue.c in Sources */,
+				5F8FC5ED229877C60065CF96 /* HeavyContext.cpp in Sources */,
+				5F8FC5EE229877C60065CF96 /* HvMessagePool.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D3D5021E23D2E00071977E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10531700F5D24DC88D0720E /* HvUtils.c in Sources */,
+				BE14D238724569589B22F69F /* HvControlUnop.c in Sources */,
+				7871CE173FE09349B703ACC9 /* HvControlCast.c in Sources */,
+				D93E61C60382DE636916E741 /* HvControlBinop.c in Sources */,
+				1A14D759C5B1D1AC8F8129CD /* HvControlRandom.c in Sources */,
+				9C00605BEAC64AB259BF7601 /* HvControlSystem.c in Sources */,
+				76930517BE8FF04810682B10 /* HvControlDelay.c in Sources */,
+				C06AC917F3C93D35AD3286CE /* HvSignalLine.c in Sources */,
+				07A19113950953EAC61B08A1 /* HvSignalCPole.c in Sources */,
+				4003D81DCFA9CFAEABC4924F /* HvControlVar.c in Sources */,
+				F57B380CD7FFB60906DD3362 /* HvHeavy.cpp in Sources */,
+				D39C4FCDBA5685538D4FCDDE /* HvLightPipe.c in Sources */,
+				EF01F3569F61FAE4AC0DA58D /* Heavy_Ambient.cpp in Sources */,
+				DC3BFF73C7F6A3835D60A209 /* HvSignalRPole.c in Sources */,
+				E272CCC8BB4D1CAFDD035CA6 /* HvSignalVar.c in Sources */,
+				DB47B3E8DB01B3EDA214CACA /* Heavy_heavy.cpp in Sources */,
+				52B75B1393CD6DE1FD4F5F0E /* HvMessage.c in Sources */,
+				CFCE1511229BD00AD89667B8 /* HvControlPack.c in Sources */,
+				A468DB7832130C4B9FD58185 /* HvControlSlice.c in Sources */,
+				7764B9BACD53B060CE745576 /* HvTable.c in Sources */,
+				C83E84C88F5211A89A205E60 /* HvSignalDel1.c in Sources */,
+				7314E3463FFC6F915AB98767 /* HvControlIf.c in Sources */,
+				CE9FFA524C763F79CC694150 /* HvMessageQueue.c in Sources */,
+				24F229193A03DB2B4E885766 /* HeavyContext.cpp in Sources */,
+				8ECE86CAD107E301AA67CCF8 /* HvMessagePool.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D854D72B1E23D37A0025E5F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/../build/macos/$(ARCHS)/$(CONFIGURATION)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../source";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-msse4.1",
+					"-Wno-#warnings",
+					"-Wno-unused-function",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "enzn.AudioPlugin-Hv-heavy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		D854D72C1E23D37A0025E5F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/../build/macos/$(ARCHS)/$(CONFIGURATION)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../source";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = (
+					"-msse4.1",
+					"-ffast-math",
+					"-DNDEBUG",
+					"-Wno-#warnings",
+					"-Wno-unused-function",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "enzn.AudioPlugin-Hv-heavy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		D88C9CF0207F6E6C006338E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/../build/ios/$(ARCHS)/$(CONFIGURATION)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../source";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-Wno-unused-function",
+					"-Wno-#warnings",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = Hv_heavy_AudioLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D88C9CF1207F6E6C006338E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/../build/ios/$(ARCHS)/$(CONFIGURATION)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../source";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = (
+					"-ffast-math",
+					"-DNDEBUG",
+					"-Wno-#warnings",
+					"-Wno-unused-function",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = Hv_heavy_AudioLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8D3D5001E23D2AB0071977E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		D8D3D5011E23D2AB0071977E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+			};
+			name = Release;
+		};
+		D8D3D50B1E23D2E00071977E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/../build/macos/$(ARCHS)/$(CONFIGURATION)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../source";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-msse4.1",
+					"-Wno-#warnings",
+					"-Wno-unused-function",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "enzn.Hv-heavy-AudioLib";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		D8D3D50C1E23D2E00071977E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/../build/macos/$(ARCHS)/$(CONFIGURATION)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../source";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = (
+					"-msse4.1",
+					"-ffast-math",
+					"-DNDEBUG",
+					"-Wno-#warnings",
+					"-Wno-unused-function",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "enzn.Hv-heavy-AudioLib";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D854D72A1E23D37A0025E5F1 /* Build configuration list for PBXNativeTarget "AudioPlugin_Hv_heavy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D854D72B1E23D37A0025E5F1 /* Debug */,
+				D854D72C1E23D37A0025E5F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D88C9CF2207F6E6C006338E3 /* Build configuration list for PBXNativeTarget "Hv_heavy_AudioLib_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D88C9CF0207F6E6C006338E3 /* Debug */,
+				D88C9CF1207F6E6C006338E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8D3D4FF1E23D2AB0071977E /* Build configuration list for PBXProject "Hv_heavy_Unity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8D3D5001E23D2AB0071977E /* Debug */,
+				D8D3D5011E23D2AB0071977E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8D3D50A1E23D2E00071977E /* Build configuration list for PBXNativeTarget "Hv_heavy_AudioLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8D3D50B1E23D2E00071977E /* Debug */,
+				D8D3D50C1E23D2E00071977E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8D3D4FC1E23D2AB0071977E /* Project object */;
+}

@@ -1,0 +1,1 @@
+DECLARE_EFFECT("heavy", Hv_heavy_UnityPlugin)
